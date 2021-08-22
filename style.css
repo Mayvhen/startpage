@@ -1,0 +1,29 @@
+body {
+	background-image: linear-gradient(
+	
+		rgba(0, 0, 0, 0.7), 
+		rgba(0, 0, 0, 0.7)
+	  ), url("https://i.imgur.com/clajyYK.png");
+	backdrop-filter: blur(2px);
+	background-size: cover;	
+}
+
+#query {
+	width: 80%;
+	height: 10vh;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.7;
+	background-color: #000000;
+	border: 2px solid #e9d739;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 6vh;
+	color: #d8cf82;
+}
+
+#query {
+	outline: none;
+}
