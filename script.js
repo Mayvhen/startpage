@@ -22,6 +22,9 @@ function process(content) {
     } else if (cmd == "urb") {
         let url = "https://www.urbandictionary.com/define.php?term=" + rest
         document.location = url
+    } else if (cmd == "yt") {
+        let url = "https://www.youtube.com/results?search_query=" + rest
+        document.location = url
     }
 }
 
