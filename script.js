@@ -27,6 +27,7 @@ function process(content) {
 
 document.onreadystatechange = (() => {
     input = document.getElementById("query")
+    input.focus()
 
     input.onkeypress = (e => {
         if (e.key == "Enter") {
