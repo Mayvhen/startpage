@@ -1,4 +1,5 @@
 let input
+const logbase = (n, base) => Math.log(n) / Math.log(base);
 
 function process(content) {
     const parts = content.split(" ");
