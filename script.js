@@ -26,6 +26,9 @@ function process(content) {
     } else if (cmd == "yt") {
         let url = "https://www.youtube.com/results?search_query=" + rest
         document.location = url
+    } else if (cmd == "l") {
+        let url = rest
+        document.location = url
     }
 }
 
